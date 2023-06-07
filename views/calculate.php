@@ -50,12 +50,12 @@
     </div>
     <div class="row">
         <div class="col-lg-6" id="result-box" style="display: none;">
-            <label for="amount" class="form-label m-0">Kurs waluty źródłowej</label>
+            <label for="amount" class="form-label mt-3">Kurs waluty źródłowej</label>
             <input type="text" class="form-control" id="source-currency-rate" disabled>
-            <label for="amount" class="form-label m-0">Kurs waluty docelowej</label>
+            <label for="amount" class="form-label mt-3">Kurs waluty docelowej</label>
             <input type="text" class="form-control" id="target-currency-rate" disabled>
 
-            <h3 class="text-success mt-3" id='final-result'></h3>
+            <h4 class="text-bold mt-3" id='final-result'></h4>
         </div>
     </div>
 </div>
