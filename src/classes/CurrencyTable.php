@@ -15,14 +15,16 @@ class CurrencyTable
                     $table .= '<th scope="col">#</th>';
                     $table .= '<th scope="col">Waluta</th>';
                     $table .= '<th scope="col">Kod waluty</th>';
+                    $table .= '<th scope="col">Ostatni kurs</th>';
                 $table .= '</tr>';
             $table .=' </thead>';
             $table .=' <tbody>';
                 foreach($currencies as $currency) {
                     $table .= '<tr>';
-                    $table .= '<th scope="row">' . $currency['id'] . '</th>';
-                    $table .= '<td>'.$currency['name']. '</td>';
-                    $table .= '<td>' . $currency['code'] . '</td>';
+                    $table .= sprintf('<th scope="row">%s</th>', $currency['id']);
+                    $table .= sprintf('<td>%s</td>', $currency['name']);
+                    $table .= sprintf('<td>%s</td>', $currency['code']);
+                    $table .= sprintf('<td>%.4f PLN</td>', $currency['value']);
                     $table .= '</tr>';
                 }
             $table .=  '</tbody>';
