@@ -1,0 +1,17 @@
+{
+    "name": "konrad/recruitment_task",
+    "description": "adrespect.pl - recruitment task",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konrad Duda",
+            "email": "konrad.duda121@gmail.com"
+        }
+    ],
+    "require": {}
+}
