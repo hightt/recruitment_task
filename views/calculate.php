@@ -27,7 +27,7 @@
                     </select>
                     <span id="target-currency-info" style="font-size: 12px; font-style: italic; color: #757575;"></span>
                 </div>
-                <button type="submit" id="btn-calculate" class="btn btn-primary">Oblicz wynik</button>
+                <button type="submit" id="btn-calculate" class="btn btn-primary" style="min-width:125px;">Oblicz</button>
         </div>
         <div class="col-lg-6">
             <p>
